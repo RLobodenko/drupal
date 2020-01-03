@@ -1,7 +1,5 @@
 <?php
-	    namespace Drupal\mymodule\Form;
-		use Drupal\Core\Form\FormBase;
-		use Drupal\Core\Form\FormStateInterface;
+	    namespace Drupal\Forms.module;
 		class ExampleForm extends FormBase {
 			public function getFormId() {
 				return 'example_form';
